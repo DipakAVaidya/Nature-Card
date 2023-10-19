@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    /* min-height: 1200px; */
+    background-image: url("Picture-Website-Wallpaper-FHD-Free-Download-Laptop-Desktop-Macbook-2510-Wallpaperxyz.com-8.jpg");
+    background-size: 100%;
+    /* background-image: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% ); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.NavText h1{
+
+    display: flex;
+   position: absolute;
+
+   top: 0%;
+   transform:translateY(10%);
+  
+
+   margin: 0px;
+   padding-left: 38%;
+
+   font-size: 3rem;
+   color: beige;
+
+   text-shadow: 7px 10px 5px rgb(41, 5, 5);
+   
+}
+
+.card{
+    width: 280px;
+    height: 450px;
+    
+    background-color: white;
+    border-radius: 26px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+    gap: 12px;
+
+}
+.card img{
+    width: 100%;
+    height: 35%;
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px; 
+}
+
+.textbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px ;
+    /* padding: 25px; */
+    width:80%;
+    
+    font-size: 1em;
+
+    text-align: center;
+   
+}
+
+#amountnox{
+    width: 82%;
+    height: 9%;
+    background-image: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );
+    
+    border-radius: 10px;
+
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-right: 1px;
+    padding-left: 8px;
+    margin-top: 7px ;
+}
+
+.leftbox {
+    /* width: fit-content; */
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.imgbox img{
+    height: 2.3rem;
+    width: 3.5rem;
+    align-self: start;
+
+}
+
+.textamountamout p{
+    font-size: 1.1rem;
+
+    color: azure;
+    align-items: center;
+}
+
+.rightbox a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: rgb(34, 17, 17);
+    padding-right: 10px;
+
+}
+
+
+#paymentbutton{
+    width: 70%;
+    height: 8%;
+    background-color: rgb(24, 24, 90);
+    color: azure;
+
+    border-radius: 10px;
+
+    font-size: 0.8rem;
+
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+.cancelbox a{
+    text-decoration: none;
+    color: rgb(34, 10, 10);
+    font-size: 1.1rem;
+
+   
+}
